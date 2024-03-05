@@ -18,9 +18,6 @@ public enum Denomination {
     private String mark;
     private int point;
 
-    Denomination() {
-    }
-
     Denomination(String mark, int point) {
         this.mark = mark;
         this.point = point;
