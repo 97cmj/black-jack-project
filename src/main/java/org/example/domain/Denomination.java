@@ -15,8 +15,8 @@ public enum Denomination {
     Q("Q", 12),
     K("K", 13);
 
-    private String mark;
-    private int point;
+    private final String mark;
+    private final int point;
 
     Denomination(String mark, int point) {
         this.mark = mark;
